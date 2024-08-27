@@ -1,0 +1,10 @@
+email-service/
+├── src/
+│   ├── EmailService.js
+│   ├── providers/
+│   │   ├── MockProvider1.js
+│   │   └── MockProvider2.js
+├── tests/
+│   └── EmailService.test.js
+├── package.json
+└── README.md

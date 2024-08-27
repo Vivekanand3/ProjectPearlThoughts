@@ -1,0 +1,5 @@
+mkdir email-service
+cd email-service
+npm init -y
+npm install nodemailer
+npm install --save-dev jest

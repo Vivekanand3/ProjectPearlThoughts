@@ -1,0 +1,9 @@
+
+class MockProvider1 {
+  async sendMail(emailOptions) {
+    console.log('MockProvider1 sending email:', emailOptions);
+    return Promise.resolve();
+  }
+}
+
+module.exports = MockProvider1;
